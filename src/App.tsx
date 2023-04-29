@@ -6,9 +6,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Timavaki />       
-    </>
+    <div className='app'>
+      <Timavaki radius={200}/>
+      <input type="text" />  
+    </div>
   )
 }
 
